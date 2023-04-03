@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+body {
+  
+    /* fallback for old browsers */
+    /*background: #6a11cb;*/
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: linear-gradient(to right, rgb(159, 127, 194), rgba(37, 117, 252, 1));*/
+  
+    font-family: "Source Sans Pro", sans-serif;
+
+  }
+
+  .login-card {
+    background-color: #17162B !important;
+    border-radius: 1rem;
+    max-width: 400px;
+    font-family: "Source Sans Pro", sans-serif !important;
+
+  }
+
+  
+
+  
+  .btn-login {
+    padding: 10px 25px;
+    background-color: greenyellow;
+    color: var(--primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+  }
+  
+  .btn-login:hover {
+    background-color: #1aa762;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .btn-login:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }

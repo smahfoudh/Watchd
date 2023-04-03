@@ -1,0 +1,21 @@
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+  }
+  
+  .dropdown:focus .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.25rem;
+    /* other styles */
+  }
+  
